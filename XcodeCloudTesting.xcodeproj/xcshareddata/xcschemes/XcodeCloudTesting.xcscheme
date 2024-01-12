@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE9830F02B5089D9007D0748"
-               BuildableName = "XcodeCloudTestingDH.app"
-               BlueprintName = "XcodeCloudTestingDH"
+               BuildableName = "XcodeCloudTesting.app"
+               BlueprintName = "XcodeCloudTesting"
                ReferencedContainer = "container:XcodeCloudTesting.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -68,8 +68,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE9830F02B5089D9007D0748"
-            BuildableName = "XcodeCloudTestingDH.app"
-            BlueprintName = "XcodeCloudTestingDH"
+            BuildableName = "XcodeCloudTesting.app"
+            BlueprintName = "XcodeCloudTesting"
             ReferencedContainer = "container:XcodeCloudTesting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE9830F02B5089D9007D0748"
-            BuildableName = "XcodeCloudTestingDH.app"
-            BlueprintName = "XcodeCloudTestingDH"
+            BuildableName = "XcodeCloudTesting.app"
+            BlueprintName = "XcodeCloudTesting"
             ReferencedContainer = "container:XcodeCloudTesting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
