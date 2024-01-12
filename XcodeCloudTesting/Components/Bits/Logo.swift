@@ -10,6 +10,6 @@ import SwiftUI
 
 struct Logo: View {
     var body: some View {
-        Image(systemName: "hare.fill").imageScale(.medium)
+        Image(systemName: "hare.fill").imageScale(.large)
     }
 }
