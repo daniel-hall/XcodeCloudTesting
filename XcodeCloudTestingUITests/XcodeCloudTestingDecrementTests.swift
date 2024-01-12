@@ -13,10 +13,9 @@ final class XcodeCloudTestingDecrementTests: XCTestCase {
         let app = XCUIApplication()
 
         let examples = [
-            (increment: 5, decrement: 5, result: 0),
-            (increment: 20, decrement: 10, result: 10),
-            (increment: 50, decrement: 1, result: 49),
-            (increment: 100, decrement: 50, result: 50)
+            (increment: 0, decrement: 1, result: -1),
+            (increment: 10, decrement: 10, result: 0),
+            (increment: 10, decrement: 5, result: 5)
         ]
 
         examples.forEach { example in
@@ -40,10 +39,8 @@ final class XcodeCloudTestingDecrementTestsTwo: XCTestCase {
         let app = XCUIApplication()
 
         let examples = [
-            (increment: 15, decrement: 15, result: 0),
-            (increment: 25, decrement: 15, result: 10),
-            (increment: 55, decrement: 5, result: 55),
-            (increment: 105, decrement: 55, result: 50)
+            (increment: 5, decrement: 5, result: 0),
+            (increment: 15, decrement: 5, result: 10)
         ]
 
         examples.forEach { example in

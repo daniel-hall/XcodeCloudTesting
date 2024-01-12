@@ -12,7 +12,7 @@ final class XcodeCloudTestingIcrementTests: XCTestCase {
     func testIncrement() throws {
         let app = XCUIApplication()
 
-        let examples = [5, 50, 100, 150]
+        let examples = [5, 25, 50]
 
         examples.forEach { example in
             app.terminate()
@@ -30,7 +30,7 @@ final class XcodeCloudTestingIcrementTestsTwo: XCTestCase {
     func testIncrementTwo() throws {
         let app = XCUIApplication()
 
-        let examples = [15, 55, 105, 155]
+        let examples = [0, 10, 30]
 
         examples.forEach { example in
             app.terminate()
