@@ -7,4 +7,6 @@
 
 import Foundation
 
-struct Component { }
+struct Component { 
+
+}

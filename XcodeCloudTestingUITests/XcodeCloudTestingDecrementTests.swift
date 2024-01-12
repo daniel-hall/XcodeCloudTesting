@@ -16,7 +16,8 @@ final class XcodeCloudTestingDecrementTests: XCTestCase {
             (increment: 0, decrement: 1, result: -1),
             (increment: 10, decrement: 10, result: 0),
             (increment: 10, decrement: 5, result: 5),
-            (increment: 15, decrement: 5, result: 10)
+            (increment: 15, decrement: 5, result: 10),
+            (increment: 7, decrement: 11, result: -4),
         ]
 
         examples.forEach { example in
@@ -43,6 +44,7 @@ final class XcodeCloudTestingDecrementTestsTwo: XCTestCase {
             (increment: 5, decrement: 5, result: 0),
             (increment: 15, decrement: 5, result: 10),
             (increment: 10, decrement: 5, result: 5),
+            (increment: 11, decrement: 7, result: 4),
         ]
 
         examples.forEach { example in
