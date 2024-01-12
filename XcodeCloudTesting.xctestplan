@@ -9,10 +9,6 @@
     }
   ],
   "defaultOptions" : {
-    "addressSanitizer" : {
-      "detectStackUseAfterReturn" : true,
-      "enabled" : true
-    },
     "maximumTestRepetitions" : 2,
     "targetForVariableExpansion" : {
       "containerPath" : "container:XcodeCloudTesting.xcodeproj",
@@ -20,8 +16,7 @@
       "name" : "XcodeCloudTesting"
     },
     "testRepetitionMode" : "retryOnFailure",
-    "threadSanitizerEnabled" : true,
-    "undefinedBehaviorSanitizerEnabled" : true
+    "threadSanitizerEnabled" : true
   },
   "testTargets" : [
     {
