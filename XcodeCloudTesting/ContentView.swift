@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var count = 0
+    @State var count: Int = 0
     var body: some View {
         VStack(spacing: 5) {
             Logo()
