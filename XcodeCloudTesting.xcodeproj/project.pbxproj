@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE552AC82B50E2D7001B0EF9 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE552AC72B50E2D7001B0EF9 /* Component.swift */; };
+		CE552ACA2B50E2EB001B0EF9 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE552AC92B50E2EB001B0EF9 /* Logo.swift */; };
 		CE9830F52B5089D9007D0748 /* XcodeCloudTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9830F42B5089D9007D0748 /* XcodeCloudTestingApp.swift */; };
 		CE9830F72B5089D9007D0748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9830F62B5089D9007D0748 /* ContentView.swift */; };
 		CE9830F92B5089DA007D0748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9830F82B5089DA007D0748 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		CE552AC42B50BE5A001B0EF9 /* XcodeCloudTesting.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = XcodeCloudTesting.xctestplan; sourceTree = "<group>"; };
+		CE552AC72B50E2D7001B0EF9 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		CE552AC92B50E2EB001B0EF9 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 		CE9830F12B5089D9007D0748 /* XcodeCloudTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCloudTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9830F42B5089D9007D0748 /* XcodeCloudTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeCloudTestingApp.swift; sourceTree = "<group>"; };
 		CE9830F62B5089D9007D0748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE552AC52B50E2BC001B0EF9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE552AC62B50E2C9001B0EF9 /* Bits */,
+				CE552AC72B50E2D7001B0EF9 /* Component.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE552AC62B50E2C9001B0EF9 /* Bits */ = {
+			isa = PBXGroup;
+			children = (
+				CE552AC92B50E2EB001B0EF9 /* Logo.swift */,
+			);
+			path = Bits;
+			sourceTree = "<group>";
+		};
 		CE9830E82B5089D9007D0748 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +117,7 @@
 		CE9830F32B5089D9007D0748 /* XcodeCloudTesting */ = {
 			isa = PBXGroup;
 			children = (
+				CE552AC52B50E2BC001B0EF9 /* Components */,
 				CE9830F42B5089D9007D0748 /* XcodeCloudTestingApp.swift */,
 				CE9830F62B5089D9007D0748 /* ContentView.swift */,
 				CE9830F82B5089DA007D0748 /* Assets.xcassets */,
@@ -260,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9830F72B5089D9007D0748 /* ContentView.swift in Sources */,
+				CE552AC82B50E2D7001B0EF9 /* Component.swift in Sources */,
+				CE552ACA2B50E2EB001B0EF9 /* Logo.swift in Sources */,
 				CE9830F52B5089D9007D0748 /* XcodeCloudTestingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,7 @@ struct ContentView: View {
     @State var count = 0
     var body: some View {
         VStack {
+            Logo()
             Text("Tap Count: \(count)").font(.title)
             Button("Increment") { count += 1 }
                 .buttonStyle(.borderedProminent)
