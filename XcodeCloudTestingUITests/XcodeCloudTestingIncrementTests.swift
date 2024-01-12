@@ -12,7 +12,25 @@ final class XcodeCloudTestingIcrementTests: XCTestCase {
     func testIncrement() throws {
         let app = XCUIApplication()
 
-        let examples = [5, 50, 100, 150]
+        let examples = [5, 25, 50, 65, 35]
+
+        examples.forEach { example in
+            app.terminate()
+            app.launch()
+            (0..<example).forEach { _ in
+                app.buttons["incrementButton"].tap()
+            }
+            XCTAssertTrue(app.staticTexts["Tap Count: \(example)"].exists)
+        }
+    }
+}
+
+final class XcodeCloudTestingIcrementTestsTwo: XCTestCase {
+
+    func testIncrementTwo() throws {
+        let app = XCUIApplication()
+
+        let examples = [0, 10, 30, 60, 20]
 
         examples.forEach { example in
             app.terminate()
