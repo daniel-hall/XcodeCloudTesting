@@ -15,7 +15,8 @@ final class XcodeCloudTestingDecrementTests: XCTestCase {
         let examples = [
             (increment: 0, decrement: 1, result: -1),
             (increment: 10, decrement: 10, result: 0),
-            (increment: 10, decrement: 5, result: 5)
+            (increment: 10, decrement: 5, result: 5),
+            (increment: 15, decrement: 5, result: 10)
         ]
 
         examples.forEach { example in
@@ -40,7 +41,8 @@ final class XcodeCloudTestingDecrementTestsTwo: XCTestCase {
 
         let examples = [
             (increment: 5, decrement: 5, result: 0),
-            (increment: 15, decrement: 5, result: 10)
+            (increment: 15, decrement: 5, result: 10),
+            (increment: 10, decrement: 5, result: 5),
         ]
 
         examples.forEach { example in
