@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE552AC42B50BE5A001B0EF9 /* XcodeCloudTesting.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = XcodeCloudTesting.xctestplan; sourceTree = "<group>"; };
 		CE9830F12B5089D9007D0748 /* XcodeCloudTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCloudTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9830F42B5089D9007D0748 /* XcodeCloudTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeCloudTestingApp.swift; sourceTree = "<group>"; };
 		CE9830F62B5089D9007D0748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		CE9830E82B5089D9007D0748 = {
 			isa = PBXGroup;
 			children = (
+				CE552AC42B50BE5A001B0EF9 /* XcodeCloudTesting.xctestplan */,
 				CE9830F32B5089D9007D0748 /* XcodeCloudTesting */,
 				CE9831042B5089DA007D0748 /* XcodeCloudTestingTests */,
 				CE98310E2B5089DA007D0748 /* XcodeCloudTestingUITests */,
