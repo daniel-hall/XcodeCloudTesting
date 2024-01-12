@@ -11,8 +11,10 @@ struct ContentView: View {
     @State var count = 0
     var body: some View {
         VStack(spacing: 5) {
-            Logo().accessibilityIdentifier("logo")
-            Text("Tap Count: \(count)").font(.title)
+            Logo()
+                .accessibilityIdentifier("logo")
+            Text("Tap Count: \(count)")
+                .font(.title)
             Button("Increment") { count += 1 }
                 .buttonStyle(.borderedProminent)
                 .padding(.top, 30)
